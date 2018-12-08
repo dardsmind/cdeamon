@@ -103,7 +103,7 @@ int main(int argc, char **argv) {
 		exit(EXIT_FAILURE);
 	}
 	
-	fprintf(stderr,"WCast daemon listening on port %d\n",CAST_PORT);
+	fprintf(stderr,"daemon listening on port %d\n",CAST_PORT);
 
 	// wait for connections
 	while (1) {
