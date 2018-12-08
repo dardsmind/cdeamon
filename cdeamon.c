@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
 	}
 	p = strrchr(pccmanage,'/');
 	if (p != NULL) p[0] = '\0';
-	pccmanage = "/home/wcast/system/wcommand.php";   // php file that can be use to execute for the given command.
+	pccmanage = "/home/dcommand.php";   // php file that can be use to execute for the given command.
 
 	// find php
 	if (findphp(pphp,sizeof(php)) == -1) {
